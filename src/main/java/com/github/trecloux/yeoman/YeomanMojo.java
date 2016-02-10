@@ -83,7 +83,7 @@ public class YeomanMojo extends AbstractMojo {
     void npmInstall() throws MojoExecutionException {
         logToolVersion("node");
         logToolVersion("npm");
-        logAndExecuteCommand("npm "+ npmInstallArgs);
+        logAndExecuteCommand("npm-cache "+ npmInstallArgs);
     }
 
     void bowerInstall() throws MojoExecutionException {

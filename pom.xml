@@ -1,14 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
-    </parent>
 
     <groupId>com.github.trecloux</groupId>
     <artifactId>yeoman-maven-plugin</artifactId>
-    <version>0.6-SNAPSHOT</version>
+    <version>0.6</version>
     <packaging>maven-plugin</packaging>
     <name>Yeoman Maven Plugin</name>
 
@@ -21,9 +16,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:trecloux/yeoman-maven-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:trecloux/yeoman-maven-plugin.git</developerConnection>
-        <url>git@github.com:trecloux/yeoman-maven-plugin.git</url>
+        <connection>scm:git:git@github.com:francescou/yeoman-maven-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:francescou/yeoman-maven-plugin.git</developerConnection>
+        <url>git@github.com:francescou/yeoman-maven-plugin.git</url>
     </scm>
 
     <properties>
